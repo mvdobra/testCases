@@ -150,4 +150,8 @@ This test case verifies that a real estate user can successfully create and post
 2. Seekers or logined users of www.imobiliare.ro can view and interact with the ad.
 3. The real estate user can modify, deactivate or delete the ad from pro.imobiliare.ro account.
 
+**Test Data:**
+1. User: Email
+2. Password: Password
+
 ----------------
