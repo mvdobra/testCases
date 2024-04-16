@@ -3,7 +3,7 @@ Down below are some test cases samples that I wrote, while I'm working on previo
 
 ----------------
 
-#### Test Case 1:
+### Test Case 1:
 Happy Flow Login (pro.imobiliare.ro)
 
 **Test Case ID:**
@@ -40,7 +40,7 @@ The user has access to their account and can proceed with further actions on the
 
 ----------------
 
-#### Test Case 2:
+### Test Case 2:
 Other Flow Login (pro.imobiliare.ro)
 
 **Test Case ID:**
@@ -78,7 +78,7 @@ The user can make corrections to their login credentials and attempt to log in a
 
 ----------------
 
-#### Test Case 3:
+### Test Case 3:
 Negative Flow - Server Unavailable (pro.imobiliare.ro)
 
 **Test Case ID:**
