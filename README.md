@@ -4,7 +4,7 @@ Down below are some test cases samples that I wrote, while I'm working on previo
 ----------------
 
 ### Test Case 1:
-Happy Flow Login (pro.imobiliare.ro)
+Happy Flow - Login (pro.imobiliare.ro)
 
 **Test Case ID:**
 tcLogin_01
@@ -41,7 +41,7 @@ The user has access to their account and can proceed with further actions on the
 ----------------
 
 ### Test Case 2:
-Other Flow Login (pro.imobiliare.ro)
+Other Flow - Login (pro.imobiliare.ro)
 
 **Test Case ID:**
 tcLogin_02
@@ -79,7 +79,7 @@ The user can make corrections to their login credentials and attempt to log in a
 ----------------
 
 ### Test Case 3:
-Negative Flow - Server Unavailable (pro.imobiliare.ro)
+Negative Flow - Login when server is unavailable (pro.imobiliare.ro)
 
 **Test Case ID:**
 tcLogin_03
@@ -111,5 +111,43 @@ The user can either wait until the server becomes available again and retry the 
 **Test Data:**
 1. User: Email
 2. Password: Password
+
+----------------
+
+### Test Case 4:
+Happy Flow - Verify that a real estate agent user can create and publish an ad from the real estate platform pro.imobiliare.ro, to www.imobiliare.ro website
+
+**Test Case ID:**
+tcCreatePublish_01
+
+**Test Case Name:**
+Create and Post an ad from pro.imobiliare.ro to www.imobiliare.ro
+
+**Description:**
+This test case verifies that a real estate user can successfully create and post an ad from pro.imobiliare.ro to www.imobiliare.ro. website
+
+**Preconditions:**
+1. The pro.imobiliare.ro website is accessible.
+2. The user is logged in as a real estate agent with proper permissions.
+3. The user has an active subscription to post ads.
+4. The www.imobiliare.ro website is accessible.
+
+**Test Steps:**
+1. Navigate to pro.imobiliare.ro.
+2. Log in to the pro.imobiliare.ro account as a real estate agent.
+3. Click on the "+ Adauga anunt" to create a new ad.
+4. Fill in the required details for the ad (all mandatory fields, marked with a red star).
+5. Click on the "Publica" button.
+
+**Expected Result:**
+1. The user should be able to successfully create the ad without encountering any errors.
+2. Upon clicking the "Publica" button, the ad should be successfully posted on imobiliare.ro.
+4. The ad should be visible to users browsing properties on imobiliare.ro.
+5. The ad details should be accurately displayed on both platforms.
+
+**Postconditions:**
+1. The ad is successfully posted on imobiliare.ro and saved in the real estate agency user account.
+2. Seekers or logined users of www.imobiliare.ro can view and interact with the ad.
+3. The real estate user can modify, deactivate or delete the ad from pro.imobiliare.ro account.
 
 ----------------
